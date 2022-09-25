@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    display: flex;
+    height: 67px;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft {
+    width: 50%;
+}
+
+.topright {
+    width: 50%;
+}
+
+.section1 {
+    max-height: 100vh;
+}
+
+.section1 h1 {
+    font-size: 2rem;
+}
+
+.logo {
+    font-size: 1.3rem;
+}
+
+.cello-icon {
+    width: 200px;
+}
+
+.topright .combined {
+    width: 548px;
+    height: 417.367px;
+}
+
+.section2 {
+    padding-left: 63px;
+    padding-right: 63px;
+}
+
+.section2 h1 {
+    font-size: 2.3rem;
+}
+
+.section2 h2 {
+    font-size: 1.7rem;
+}
+
+.section2 p {
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box {
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 19vw;
+    border: 2px solid rgb(204, 92, 92);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box h2 {
+    padding: 17px 0;
+}
+
+.highlighted {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.box ul {
+    list-style-type: none;
+}
+
+.box ul li {
+    margin: 12px 2px;
+}
+
+.section3 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.section3 h2 {
+    font-size: 1.6rem;
+}
+
+.section3 p {
+    padding: 0 7vw;
+    text-align: center;
+}
+
+.products .image1 {
+    padding: 10px 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.products .image2 {
+    padding: 10px 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.products .image3 {
+    padding: 10px 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.products .image4 {
+    padding: 10px 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+footer {
+    padding: 23px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
