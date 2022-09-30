@@ -1,4 +1,4 @@
-.nav {
+.flex justify-between {
   display: flex;
   justify-content: flex-end;
   position: fixed;
@@ -10,27 +10,27 @@
   z-index: 10;
 }
 
-.nav-list {
+.navbar flex items-center{
   display: flex;
   margin-right: 2rem;
 }
 
 @media (max-width: 28.75em) {
-  .nav {
+  .flex justify-between {
     justify-content: center;
   }
 
-  .nav-list {
+  .navbar flex items-center {
     margin: 0 1rem;
   }
 }
 
-.nav-list a {
+.navbar flex items-center a {
   display: block;
   font-size: 2.2rem;
   padding: 2rem;
 }
 
-.nav-list a:hover {
+.navbar flex items-center a:hover {
   background: var(--main-blue);
 }
