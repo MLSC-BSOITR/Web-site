@@ -9,6 +9,7 @@
 .container {
     max-width: 80vw;
     font-family: 'Ubuntu', sans-serif;
+    font-size: BOLD;
 }
 
 .mx-auto {
