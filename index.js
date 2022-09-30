@@ -14,7 +14,7 @@ var x = setInterval(function() {
   document.getElementById("demo").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
  
-  if (distance < 0) {
+  if (distance > 0) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "Expired";
   }
