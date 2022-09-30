@@ -1,36 +1,219 @@
-.flex justify-between {
-  display: flex;
-  justify-content: flex-end;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: var(--main-red);
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
-  z-index: 10;
-}
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #be3144;
+    --main-blue: #45567d;
+    --main-gray: #303841;
+  }
+  
+  /* Base reset */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* box-sizing and font sizing */
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  html {
+    box-sizing: border-box;
+  
+    /* Set font size for easy rem calculations
+     * default document font size = 16px, 1rem = 16px, 100% = 16px
+     * (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
+    */
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
 
-.navbar flex items-center{
-  display: flex;
-  margin-right: 2rem;
-}
+  
+  /* A few media query to set some font sizes at different screen sizes.
+ * This helps automate a bit of responsiveness.
+ * The trick is to use the rem unit for size values, margin and padding.
+ * Because rem is relative to the document font size
+ * when we scale up or down the font size on the document
+ * it will affect all properties using rem units for the values.
+*/
 
-@media (max-width: 28.75em) {
+/* I am using the em unit for breakpoints
+ * The calculation is the following
+ * screen size divided by browser base font size
+ * As an example: a breakpoint at 980px
+ * 980px / 16px = 61.25em
+*/
+
+/* 1200px / 16px = 75em */
+@media (max-width: 75em) {
+    html {
+      font-size: 60%;
+    }
+  }
+  
+  /* 980px / 16px = 61.25em */
+  @media (max-width: 61.25em) {
+    html {
+      font-size: 58%;
+    }
+  }
+  
+  /* 460px / 16px = 28.75em */
+  @media (max-width: 28.75em) {
+    html {
+      font-size: 55%;
+    }
+  }
+
+  
+  /* Base styles */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem; /* 18px */
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--main-white);
+  }
+  
+  h1,
+  h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 6rem;
+  }
+  
+  h2 {
+    font-size: 4.2rem;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--main-white);
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+  }
+
+/*navbar*/
   .flex justify-between {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--main-red);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+  }
+  
+  .navbar flex items-center{
+    display: flex;
+    margin-right: 2rem;
+  }
+  
+  @media (max-width: 28.75em) {
+    .flex justify-between {
+      justify-content: center;
+    }
+  
+    .navbar flex items-center {
+      margin: 0 1rem;
+    }
+  }
+  
+  .navbar flex items-center a {
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+  }
+  
+  .navbar flex items-center a:hover {
+    background: var(--main-blue);
+  }
+
+  .min-h-screen {
+    min-height: 100vh;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center{
     justify-content: center;
-  }
-
-  .navbar flex items-center {
-    margin: 0 1rem;
-  }
 }
 
-.navbar flex items-center a {
-  display: block;
-  font-size: 2.2rem;
-  padding: 2rem;
+.flex-col {
+    flex-direction: column;
 }
 
-.navbar flex items-center a:hover {
-  background: var(--main-blue);
+.font-bold {
+    font-weight: bolder;
+}
+
+.my-1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+
+.my-2{
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.my-3{
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+.px-2{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.text-blue{
+    color: rgb(214, 29, 29);
+}
+
+.btn{
+    padding: 7px 12px;
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: grab;
+    color: white ;
+    background-color:rgb(204, 92, 92) ;
+}
+
+.overflow-x-hidden{
+    overflow-x:hidden;
+}
+
+.text-center{
+    text-align: center;
 }
