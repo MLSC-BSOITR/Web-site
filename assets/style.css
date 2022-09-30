@@ -38,7 +38,7 @@
 .section1 {
     max-height: 100vh;
     font-weight: 300;
-    font-color: blue;
+    color: blue;
 }
 
 .section1 h1 {
@@ -159,7 +159,6 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 12px;
-    background-color:#1717e0;
     cursor: pointer; 
     color: #fff;
 }
@@ -168,4 +167,48 @@ footer {
     font-size: 1.2rem;
     font-weight: bolder;
     margin: 12px 0;
+}
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: rgb(167, 77, 77);
+}
+#section1{
+    padding: 20px;
+    margin: 10px;
+}
+#section2{
+    padding: 20px;
+    margin: 10px;
+}
+#section3{
+    padding: 20px;
+    margin: 10px;
+}
+.home, .products, .about, .pricing{
+    color: white;
+    text-decoration: none;
+}
+.home:hover{
+    color: red;
+} 
+.products:hover{
+    color : red;
+} .about:hover{
+    color: red;
+}.pricing:hover{
+    color: red;
+}
+
+.my-3{
+    text-align: center;
+}
+
+.flex{
+   text-align: center;
+}
+
+.imageAtEnd{
+    padding : 30px 250px;
 }
