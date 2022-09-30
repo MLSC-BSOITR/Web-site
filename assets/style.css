@@ -159,7 +159,9 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 12px;
-    background-color: #808080;
+    background-color:#1717e0;
+    cursor: pointer; 
+    color: #fff;
 }
 
 .deal {
