@@ -38,7 +38,7 @@
 .section1 {
     max-height: 100vh;
     font-weight: 300;
-    color: blue;
+    color: red;
 }
 
 .section1 h1 {
@@ -65,7 +65,7 @@
 
 .section2 h1 {
     font-size: 2.3rem;
-    font-color: white;
+    font-color: yellow;
 }
 
 .section2 h2 {
@@ -120,7 +120,7 @@
 
 .products .image1 {
     padding: 10px 5px;
-    border: 2px solid white;
+    border: 2px solid blue;
     border-radius: 5px;
     cursor: pointer;
 
@@ -128,7 +128,7 @@
 
 .products .image2 {
     padding: 10px 5px;
-    border: 2px solid white;
+    border: 2px solid blue;
     border-radius: 5px;
     cursor: pointer;
 
@@ -136,7 +136,7 @@
 
 .products .image3 {
     padding: 10px 5px;
-    border: 2px solid white;
+    border: 2px solid blue;
     border-radius: 5px;
     cursor: pointer;
 
@@ -144,7 +144,7 @@
 
 .products .image4 {
     padding: 10px 5px;
-    border: 2px solid white;
+    border: 2px solid blue;
     border-radius: 5px;
     cursor: pointer;
 
@@ -188,18 +188,18 @@ header{
     margin: 10px;
 }
 .home, .products, .about, .pricing{
-    color: white;
+    color: blue;
     text-decoration: none;
 }
 .home:hover{
-    color: red;
+    color: green;
 } 
 .products:hover{
-    color : red;
+    color : green;
 } .about:hover{
-    color: red;
+    color: green;
 }.pricing:hover{
-    color: red;
+    color: green;
 }
 
 .my-3{
