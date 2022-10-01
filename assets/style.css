@@ -208,6 +208,7 @@ header{
 
 .flex{
    text-align: center;
+    justify-content: space-between;
 }
 
 .imageAtEnd{
