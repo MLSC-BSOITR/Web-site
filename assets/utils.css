@@ -52,7 +52,8 @@
 }
 
 .text-blue{
-    color: rgb(214, 29, 29);
+    color: rgb(29, 45, 214);
+    padding-left: 50px;
 }
 
 .btn{
@@ -66,6 +67,7 @@
 
 .overflow-x-hidden{
     overflow-x:hidden;
+    background-color: gray;
 }
 
 .text-center{
