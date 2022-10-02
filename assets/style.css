@@ -4,13 +4,62 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ecdfdf;
 }
 
 .container {
-    max-width: 80vw;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: BOLD;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
 }
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background: #ffcccc;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #ff8080;
+    transition: .3s;
+}
+
+button{
+    border: none;
+    background:  #ff8080;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    transition: .4s;
+}
+
+button:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
 
 .mx-auto {
     margin-left: auto;
@@ -46,7 +95,11 @@
 }
 
 .logo {
-    font-size: 1.3rem;
+color: #fff;
+font-size: 25px;
+}
+span{
+    color:  #ff8080;
 }
 
 .cello-icon {
@@ -153,6 +206,14 @@
 footer {
     padding: 23px;
     text-align: center;
+}
+
+.navbar li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    font-size: 18px;
+
 }
 
 .buttons {
