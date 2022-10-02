@@ -1,4 +1,4 @@
-var countDownDate = new Date("September 30, 2022 16:48:25").getTime();
+let countDownDate = new Date("September 30, 2022 16:48:25").getTime();
  
 var x = setInterval(function() {
  
@@ -19,4 +19,4 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "Expired";
   }
  
-}, 2000);
+}, 3000);
