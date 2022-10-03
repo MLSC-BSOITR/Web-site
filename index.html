@@ -10,36 +10,52 @@
   <link rel="stylesheet" href="assets/style.css">
   <script src="index.js"></script>
   <link rel="stylesheet" href="assets/utils.css">
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <!-- <style>
   h1{color:rgb(0,51,102)}
   h2{color:rgb(102,0,51);background-color:rgb(236, 223, 223)}
   </style> -->
 </head>
 
-<body class="overflow-x-hidden ">
-  <div class="container mx-auto ">
-      <nav class="flex justify-between">
-      <div><h1 class="logo">Om-Poly <span>Industries</span>
-        <ul class="navbar flex items:center">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Vision</a></li>
-          <li><a href="#">Explore</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Help center</a></li>
-        </ul>
-        <button type="button">Buy Now</button>
-        <button type="sign-up">Sign Up</button>
-      </nav>
+<body>
+  <header id="header">
+    <div class="header-top"></div>
+    <div class="container main-menu">
+      <div class="row align-items-center justify-content-between d-flex">
+        <nav id="nav-menu-container">
+          <ul class="nav-menu" style="display:flex;justify-content: space-around;" >
+            <li>
+              <a
+                href="index.html"
+                style="
+                  font-size: 22px;
+                  font-family: 'Bungee', cursive;
+                  color: white;
+                "
+                ><span class="lnr lnr-train"></span> &nbsp;Om Poly Industry</a
+              >
+            </li>
+            <li class="menu-active" style="margin-left: 20px; font-size:18px;"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="contact.html">Support</a></li>
+          </ul>
+        </nav>
+        <!-- #nav-menu-container -->
+      </div>
+    </div>
+  </header>
+  <!-- #header -->
+
       <hr>
-    <main class="min-h-screen ">
+    <main class="min-h-screen " style="margin-top: 80px;">
       <section class="section1">
         <div class="flex">
           <div class="topleft flex items-center flex-col justify-center px-2">
             <div class="text-center">
               <centre>
-              	<img class="cello-icon" src="assets/image/tape.jpg" alt="tape" width= 100% height="300">
+              	<img class="cello-icon" src="assets/image/5f99582a89c76-removebg-preview.png" alt="tape" width= 120% height="150">
               </centre>	
             </div>
             <h1 class="my-1 text-center">The best production for you in your city.</h1>
@@ -124,7 +140,59 @@
           <img class="imageAtEnd" src="assets/image/combined.jpg" alt=" main course">
           <hr>
         </main>
-        <footer>&copy; All right reservered</footer>
+        <footer class="bg-black text-center text-white">
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+            <!-- Section: Form -->
+            <section class="">
+              <form action="">
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center">
+                  <!--Grid column-->
+                  <div class="col-auto">
+                    <p class="pt-2">
+                      <strong>Sign up for our Service Updates</strong>
+                    </p>
+                  </div>
+                  <!--Grid column-->
+        
+                  <!--Grid column-->
+                  <div class="col-md-5 col-12">
+                    <!-- Email input -->
+                    <div class="form-outline form-white mb-4">
+                      <input type="email" id="form5Example29" class="form-control" />
+                      <label class="form-label" for="form5Example29">Email address</label>
+                    </div>
+                  </div>
+                  <!--Grid column-->
+        
+                  <!--Grid column-->
+                  <div class="col-auto">
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-outline-light mb-4">
+                      Subscribe
+                    </button>
+                  </div>
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </form>
+              
+            </section>
+            <!-- Section: Form -->
+          </div>
+          <!-- Grid container -->
+          
+         
+        
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="https://github.com/MLSC-BSOITR/Web-site">All Rights Reserved</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+        
       
     </div>
 
