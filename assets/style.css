@@ -2,7 +2,7 @@
 
 
 * {
-    /* margin: 1rem; */
+    /* margin: 0.1rem; */
     width: 100%;
     padding: 0;
     box-sizing: border-box;
@@ -32,7 +32,10 @@ body{
 .container {
     
 }
-
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
 nav{
     /* display: flex; */
     /* align-items: center; */
@@ -121,19 +124,42 @@ span{
 }
 
 .box {
-    padding: 8px 0;
+    /* padding: 8px 0; */
     /* margin: 12px 22px; */
-    min-width: 19vw;
-    border: 2px solid rgb(204, 92, 92);
+    /* min-width: 19vw; */
+    width: 200vh;
+    margin: 1rem;
+    border: 1rem solid rgb(204, 92, 92);
     border-radius: 10px;
     text-align: center;
+
+}
+.boxx1{
+ display: flex;
+ width: 50%;
+ justify-content: left;
+}
+.boxx2{
+    display: flex;
+    width: 38rem;
+    justify-content: center;
+}
+.box3{
+    height: 17rem;
 }
 
-.box h2 {
-    padding: 17px 0;
+.box>h2 {
+    padding: 1rem 0;
+    margin: 0%;
     background-color: black;
+    color: #fff;
 }
-
+.box1n2{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
 .highlighted {
     font-size: 1.3rem;
     font-weight: bold;
@@ -204,7 +230,6 @@ footer {
     margin-bottom: 20px;
     align-items: center;
     font-size: 18px;
-
 }
 
 .buttons {
