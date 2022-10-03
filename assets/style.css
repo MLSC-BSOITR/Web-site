@@ -2,7 +2,8 @@
 
 
 * {
-    margin: 0;
+    /* margin: 1rem; */
+    width: 100%;
     padding: 0;
     box-sizing: border-box;
 }
@@ -12,26 +13,19 @@ body{
 }
 
 .container {
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
+    
 }
 
 nav{
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
     justify-content: space-between;
-    padding-top: 20px;
-    padding-left: 10%;
-    padding-right: 10%;
     background: #ffcccc;
+    border: 2px solid rgb(0, 0, 0);
 }
 
 nav ul li{
     list-style-type: none;
-    display: inline-block;
-    padding: 10px 20px;
 }
 
 nav ul li a{
@@ -46,47 +40,48 @@ nav ul li a:hover{
 }
 
 button{
-    border: none;
+    /* border: none; */
     background:  #ff8080;
-    padding: 12px 30px;
+    /* padding: 12px 30px; */
     border-radius: 30px;
     color: #fff;
-    font-size: 15px;
+    height: 2.5rem;
+    width: 7.5rem;
+    font-size: 10px;
     transition: .4s;
 }
 
 button:hover{
-    transform: scale(1.3);
+    transform: scale(0.9);
     cursor: pointer;
 }
 
 
 .mx-auto {
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 .navbar {
     display: flex;
-    height: 67px;
+    
 }
 
 .navbar li {
     list-style: none;
-    margin: 0 12px;
+  
 }
 
 .topleft {
-    width: 50%;
+    /* width: 50%; */
 }
 
 .topright {
-    width: 50%;
+    /* width: 50%; */
 }
 
 .section1 {
-    max-height: 100vh;
-    font-weight: 300;
+    /* max-height: 100vh; */
+    /* font-weight: 300; */
     color: red;
 }
 
@@ -107,22 +102,20 @@ span{
 }
 
 .topright .combined {
-    width: 548px;
-    height: 417.367px;
+
 }
 
 .section2 {
-    padding-left: 63px;
-    padding-right: 63px;
+    
 }
 
 .section2 h1 {
     font-size: 2.3rem;
-    font-color: yellow;
+
 }
 
 .section2 h2 {
-    font-size: 1.7rem;
+    /* font-size: 1.7rem; */
 }
 
 .section2 p {
@@ -132,7 +125,7 @@ span{
 
 .box {
     padding: 8px 0;
-    margin: 12px 22px;
+    /* margin: 12px 22px; */
     min-width: 19vw;
     border: 2px solid rgb(204, 92, 92);
     border-radius: 10px;
@@ -173,6 +166,7 @@ span{
 
 .products .image1 {
     padding: 10px 5px;
+    height: 10rem;
     border: 2px solid blue;
     border-radius: 5px;
     cursor: pointer;
@@ -231,22 +225,16 @@ footer {
     margin: 12px 0;
 }
 header{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background: rgb(167, 77, 77);
+  
 }
 #section1{
-    padding: 20px;
-    margin: 10px;
+ 
 }
 #section2{
-    padding: 20px;
-    margin: 10px;
+   
 }
 #section3{
-    padding: 20px;
-    margin: 10px;
+    
 }
 .home, .products, .about, .pricing{
     color: blue;
@@ -269,9 +257,9 @@ header{
 
 .flex{
    text-align: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .imageAtEnd{
-    padding : 30px 250px;
+    /* padding : 30px 250px; */
 }
