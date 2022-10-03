@@ -91,7 +91,7 @@ button:hover{
 .section1 {
     /* max-height: 100vh; */
     /* font-weight: 300; */
-    color: red;
+    color: rgb(62, 116, 141);
 }
 
 .section1 h1 {
@@ -103,7 +103,7 @@ color: #fff;
 font-size: 25px;
 }
 span{
-    color:  #ff8080;
+    color:  #ce1b1b;
 }
 
 .cello-icon {
