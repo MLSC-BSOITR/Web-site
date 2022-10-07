@@ -2,6 +2,7 @@
 https://hacktoberfest.com/
 
 
+
 EXAMPLE- TO CHANGE THE SIZE OF FONT
 
  p.c{
@@ -9,3 +10,10 @@ EXAMPLE- TO CHANGE THE SIZE OF FONT
        font-size:12px 
 <!--you can set any font size in pixels (px) or rem or em    -->
  }
+
+EXAMPLE-1 TO CHANGE THE STYLE OF FONT
+
+      p.c {
+          font-style: oblique;
+          }
+
