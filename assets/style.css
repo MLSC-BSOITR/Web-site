@@ -1,31 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
 
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
-.container {
-    max-width: 80vw;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: BOLD;
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: #505d61;
+    line-height: 75px;
+    padding: 0px 100px;
 }
 
+nav ul{
+    float: right;
+}
+
+.logo h1{
+    color: aliceblue;
+}
+.navbar li{
+    display: inline-block;
+}
+
+.navbar li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 32px;
+    cursor: pointer;
+transition: 0.5s;
+}
+
+.navbar li a:hover{
+    color: #c0d96f;
+
+}
+
+.navbar li a .active{
+    color: #c0d96f;
+
+}
 .mx-auto {
     margin-left: auto;
     margin-right: auto;
 }
 
-.navbar {
-    display: flex;
-    height: 67px;
-}
 
-.navbar li {
-    list-style: none;
-    margin: 0 12px;
-}
 
 .topleft {
     width: 50%;
@@ -155,13 +180,33 @@ footer {
     text-align: center;
 }
 
-.buttons {
+
+/* .buttons { */
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 12px;
     cursor: pointer; 
     color: #fff;
+
+
+.navbar li button{
+    background-color: blue;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #5783db;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 5px;
+    cursor: pointer;
+    transition: translate 0.5s;
+
+}
+
+button:hover{
+  transform: translateY(-5px);
 }
 
 .deal {
