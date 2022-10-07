@@ -17,3 +17,8 @@ EXAMPLE-1 TO CHANGE THE STYLE OF FONT
           font-style: oblique;
           }
 
+Example-2 TO SPECIFY THE WEIGHT OF A FONT
+  
+      p.c {
+          font-weight: normal;
+          }
