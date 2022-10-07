@@ -27,6 +27,6 @@ Example-3 TO CHANGE THE MARGIN AND ITS COLOUR
       p.c {
            margin: 35px;
            border: 1px solid red;
-          }
+           }
 
          
