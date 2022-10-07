@@ -36,11 +36,6 @@ nav ul{
 transition: 0.5s;
 }
 
-.navbar li a:hover{
-    color: #c0d96f;
-
-}
-
 .navbar li a .active{
     color: #c0d96f;
 
