@@ -222,6 +222,9 @@ transition: 0.5s;
     font-size: 15px;
     text-transform: uppercase;
     outline: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:large;
+    font-weight: 600;
   }
   
   .nav-menu > li {
