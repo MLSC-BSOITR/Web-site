@@ -29,4 +29,8 @@ Example-3 TO CHANGE THE MARGIN AND ITS COLOUR
            border: 1px solid red;
            }
 
-         
+       p.c {
+           margin: 40px;
+           border: 2px blue;
+          }
+           }
