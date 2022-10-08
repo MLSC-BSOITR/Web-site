@@ -25,17 +25,18 @@ nav{
     padding-top: 20px;
     padding-left: 10%;
     padding-right: 10%;
-    background: #ffcccc;
+    background: #FFE3E1;
 }
 
 nav ul li{
     list-style-type: none;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 6px;
+    font-family:sans-serif;
 }
 
 nav ul li a{
-    color: white;
+    color: #FA7070;
     text-decoration: none;
     font-weight: bold;
 }
@@ -48,11 +49,14 @@ nav ul li a:hover{
 button{
     border: none;
     background:  #ff8080;
-    padding: 12px 30px;
-    border-radius: 30px;
+    padding: 11px 15px;
+    border-radius: 33px;
     color: #fff;
     font-size: 15px;
     transition: .4s;
+    position: absolute;
+    top: 82px;
+    right: 111px;
 }
 
 button:hover{
@@ -95,8 +99,10 @@ button:hover{
 }
 
 .logo {
-color: #fff;
-font-size: 25px;
+color: #FA7070;
+font-size: 40px;
+font-family: Arial, Helvetica, sans-serif;
+
 }
 span{
     color:  #ff8080;
