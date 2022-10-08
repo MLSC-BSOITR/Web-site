@@ -1,4 +1,18 @@
+.min-h-screen {
+    min-height: 100vh;
+}
 
+.bg-yellow {
+    background-color: yellow;
+}
+
+.flex {
+    display: block;
+}
+
+.items-center {
+    align-items: center;
+}
 
 .overflow-x-hidden{
     overflow-x:hidden;
