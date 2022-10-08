@@ -672,3 +672,8 @@ button:hover{
 #section2{
     display: none;
 }
+
+.navbar{
+  width: auto;
+  border-width: 1px;;
+}
