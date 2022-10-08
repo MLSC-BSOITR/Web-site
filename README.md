@@ -34,3 +34,14 @@ Example-3 TO CHANGE THE MARGIN AND ITS COLOUR
            border: 2px blue;
           }
            }
+EXAMPLE-4 TO CHANGE THE BACKGROUND COLOUR, HEADING COLOUR AND PARAGRAPH COLOUR TO BLUE
+
+         body {
+              background-color: powderblue;
+              }
+         h1 {
+            color: blue;
+            }
+         p {
+           color: red;
+           }
