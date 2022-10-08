@@ -406,6 +406,10 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background: #FFE3E1;
 }
 nav{
     /* display: flex; */
@@ -436,6 +440,13 @@ nav{
 
 nav ul li{
     list-style-type: none;
+    display: inline-block;
+    padding: 10px 6px;
+    font-family:sans-serif;
+}
+
+nav ul li a{
+    color: #FA7070;
 }
 
 nav ul li a{
@@ -454,15 +465,18 @@ nav ul li a:hover{
 
 
 button{
-    /* border: none; */
-    background:  #080505;
-    /* padding: 12px 30px; */
-    border-radius: 30px;
+    border: none;
+    background:  #ff8080;
+    padding: 11px 15px;
+    border-radius: 33px;
     color: #fff;
     height: 2.5rem;
     width: 7.5rem;
     font-size: 10px;
     transition: .4s;
+    position: absolute;
+    top: 82px;
+    right: 111px;
 }
 
 button:hover{
@@ -487,7 +501,11 @@ button:hover{
     font-size: 2rem;
 }
 
-
+.logo {
+color: #FA7070;
+font-size: 40px;
+font-family: Arial, Helvetica, sans-serif;
+}
 span{
     color:  #ce1b1b;
 }
@@ -671,4 +689,9 @@ button:hover{
 }
 #section2{
     display: none;
+}
+
+.navbar{
+  width: auto;
+  border-width: 1px;;
 }
