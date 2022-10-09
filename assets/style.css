@@ -216,3 +216,86 @@ footer {
     font-weight: bolder;
     margin: 12px 0;
 }
+
+@media screen and (max-width: 1366px) {
+  .container.mx-auto {
+    min-width: 90vw;
+  }
+
+  .topright .combined {
+    width: 25rem;
+    height: auto;
+  }
+
+  .section2 {
+    padding-inline: 0;
+  }
+
+  .section2 .boxes {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .section2 .boxes {
+    justify-content: center;
+  }
+
+  .box {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .section1 .flex { 
+    align-items: center;
+  }
+  .topright .combined {
+    width: 20rem;
+    height: 20rem;
+  }
+  .section2 .boxes {
+    justify-content: center;
+  }
+
+  .box {
+    padding: 1rem;
+  }
+
+  .products {
+    flex-wrap: wrap;
+  }
+
+  .products div > img {
+    aspect-ratio: 4/4;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .section1 .flex {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .section2 .boxes{
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .topleft {
+    width: 80%;
+  }
+  .cello-icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .topright .combined {
+    width: 15rem;
+    height: 13rem;
+  }
+  .cello-icon {
+    display: none;
+  }
+}
