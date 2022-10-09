@@ -5,6 +5,11 @@
     margin: 0;
     padding: 0;
 
+    box-sizing: border-box;
+}
+body{
+    display: flex;}
+
 
 
 nav{
@@ -58,8 +63,8 @@ nav ul{
 .navbar li a .active{
     color: #c0d96f;
 
-}
 
+}
 .container {
     max-width: 80vw;
     font-family: 'Ubuntu', sans-serif;
@@ -70,14 +75,35 @@ nav ul{
     margin-right: auto;
 }
 
-.navbar {
+.navbar_items {
     display: flex;
     height: 67px;
 }
-
-.navbar li {
+.navbar_items ul li {
     list-style: none;
-    margin: 0 12px;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar_items ul li a{
+    text-decoration: none;
+    transition: 0.3s all;
+    font-size: 28px;
+}
+.navbar_items ul li a:hover {
+    color: orange;
+}
+.hover-line::after {
+    content:'';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: orange;
+    transition:width .3;
+
+}
+.hover-line:hover::after {
+    width: 100%;
+    transition:width .3s;
 }
 
 .topleft {
