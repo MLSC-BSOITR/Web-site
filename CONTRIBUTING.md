@@ -19,3 +19,8 @@ NOTE2 - Contribution you are providing must be applicable in web and valid.
 EXAMPLE- CHANGE THE BUTTON COLOR TO BLACK-
 
 .btn{ padding: 12px 15px; color: blue; }
+
+
+AbdulRehmanGHub Contributions:
+1- I have added the anchor tag so that the tabs are now clickable and you can now add links of your own.
+2- I have also added the bold tag to tabs that look cool in this format now.
