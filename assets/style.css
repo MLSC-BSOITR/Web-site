@@ -32,11 +32,11 @@
     font-size: 28px;
 }
 .hover-line{
-    color: #06283D;
+    color: #ffff;
     margin: 8px;
     padding: 10px 17px;
     display: block;
-    background-color: #47b5ff;
+    background-color: #256D85;
     text-decoration: none;
     font-family: sans-serif;
     border-radius: 7px;
@@ -120,7 +120,7 @@
     padding: 8px 0;
     margin: 12px 22px;
     min-width: 19vw;
-    border: 2px solid rgb(204, 92, 92);
+    border: 2px solid #06283D;
     border-radius: 10px;
     text-align: center;
 }
@@ -140,6 +140,7 @@
 
 .box ul li {
     margin: 12px 2px;
+
 }
 
 .section3 {
