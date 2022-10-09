@@ -62,7 +62,7 @@
     padding: 13px 18px;
     border: 2px solid white;
     border-radius: 7px;
-    cursor: grab;
+    cursor: pointer;
     color: white;
     background-color: #256D85;
 }
