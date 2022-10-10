@@ -206,3 +206,7 @@ footer {
     font-weight: bolder;
     margin: 12px 0;
 }
+
+h1.text-center.my-2 {
+    color: #256D85;
+}
