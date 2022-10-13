@@ -49,3 +49,9 @@ EXAMPLE-4 TO CHANGE THE BACKGROUND COLOUR, HEADING COLOUR AND PARAGRAPH COLOUR T
          p {
            color: red;
            }
+
+EXAMPLE-5 TO CHANGE THE COLOR OF THE BUTTON TO DARK BLUE AND PADDING
+        .btn{
+            color:#020C7E;
+            padding: 12px 15px;
+        }
