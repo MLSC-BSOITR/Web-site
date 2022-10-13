@@ -49,3 +49,6 @@ EXAMPLE-4 TO CHANGE THE BACKGROUND COLOUR, HEADING COLOUR AND PARAGRAPH COLOUR T
          p {
            color: red;
            }
+EXAMPLE-5 TO CHANGE THE FONT TYPE INTO 'Courier New' FONT
+
+       <p style="font-family:'Courier New'">This is another paragraph.</p>
