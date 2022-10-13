@@ -1,5 +1,6 @@
 .min-h-screen {
     min-height: 100vh;
+    margin-left: 250px;
 }
 
 .bg-yellow {
@@ -8,6 +9,7 @@
 
 .flex {
     display: flex;
+  
 }
 
 .items-center {
@@ -74,4 +76,29 @@
 
 .text-center {
     text-align: center;
+}
+
+.hd1{
+    padding-left: 200px;
+}
+
+.hd3{
+    padding-right: 250px;
+}
+
+
+.hover1:hover{
+    background-color:#33b0d9;
+}
+.footer1{
+    padding-right: 60px;
+    background-color: rgb(3, 48, 48);
+}
+
+.logo{
+    color: azure;
+}
+
+.logo:hover{
+    color: #043441;
 }

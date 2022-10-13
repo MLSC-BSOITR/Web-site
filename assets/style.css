@@ -208,5 +208,16 @@ footer {
 }
 
 h1.text-center.my-2 {
-    color: #256D85;
+    color: #0a4d63;
+}
+.navnav{
+    background-color: #044e6b;
+}
+
+.box{
+    background-color:#25a6d1;
+}
+
+.timer{
+    color: rgb(15, 134, 89);
 }
