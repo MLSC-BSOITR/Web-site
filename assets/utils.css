@@ -70,6 +70,14 @@
     background-color: #256D85;
 }
 
+.btn:hover{
+    background-color: #ddd;
+    color: black;
+    opacity: 1;
+    transition: all 0.7s ease;
+    transform: scale(1.1) perspective(1.1px)
+}
+
 .overflow-x-hidden {
     overflow-x: hidden;
 }
