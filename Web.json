@@ -1,0 +1,10 @@
+  p.c {
+       margin: 35px;
+       border: 1px solid blue;
+       }
+
+   p.c {
+       margin: 40px;
+       border: 2px red;
+      }
+       }
