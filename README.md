@@ -54,7 +54,12 @@ EXAMPLE-5 TO CHANGE THE FONT TYPE INTO 'Courier New' FONT
        <p style="font-family:'Courier New'">This is another paragraph.</p>
 
 EXAMPLE-5 TO CHANGE THE COLOR OF THE BUTTON TO DARK BLUE AND PADDING
+
         .btn{
             color:#020C7E;
             padding: 12px 15px;
-       }
+            }
+            
+EXAMPLE-6 BY APPLYING INLINE CSS CHANGING THE TEXT COLOR TO BLUE
+        
+        <p style="color:blue;">It will be useful here.</p>  
