@@ -1,0 +1,10 @@
+  p.c {
+       margin: 30px;
+       border: 1px solid black;
+       }
+
+   p.c {
+       margin: 45px;
+       border: 1px pink;
+      }
+       }
