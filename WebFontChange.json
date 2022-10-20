@@ -1,0 +1,4 @@
+.my-1 text-center{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size : large ;
+}
