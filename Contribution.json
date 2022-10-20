@@ -1,0 +1,5 @@
+1.EXAMPLE- change link color when you mouse over it:
+
+a:hover {
+  background-color: yellow;
+}
