@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+    <html>
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Learn Python with us!!!</title>
+    <link rel="stylesheet" href="pf.css" />
+    <a href="https://youtu.be/rfscVS0vtbw">
+    <button class= "content">Reference(Eng)</button>
+    </a>
+    <a href="https://www.freecodecamp.org/learn/scientific-computing-with-python/">
+        <button class= "content">Practice</button>
+        </a>
+    <a href="https://youtu.be/vLqTf2b6GZw">
+        <button class= "content">Reference(hindi)</button>
+        </a>
+    <a href="https://www.freecodecamp.org/learn/machine-learning-with-python/">
+        <button class= "content">Machine Learning</button>
+        </a>
+   </head>
+
+    <body>
+        <script type="text/javascript">
+            var i=0;
+            function read(py) {
+                let dots = document.querySelector(`.card[data-py="${py}"] .dots`);
+                let moreText = document.querySelector(`.card[data-py="${py}"] .more`); 
+                let btnText = document.querySelector(`.card[data-py="${py}"] .myBtn`);
+            
+                if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.textContent = "Read more";
+                    moreText.style.display = "none";
+                } else {
+                    dots.style.display = "none";
+                    btnText.textContent = "Read less"; 
+                    moreText.style.display = "inline";
+                }
+            }
+        </script> 
+    
+
+    <div class="container" id="titleContainer">
+    <h1 id="titl">Learn Python with us!!!</h1>
+    </div>
+
+    <div class="container">
+    <h2 class="heading">Table of contents</h2>
+    <div class="contents">
+        <a class= "content" href="#print-statement" style="color: grey">Print-statement</a></br>
+        <a class= "content" href="#variables - integers and floats" style="color: grey">Variables - integers and floats</a></br>
+        <a class= "content" href="#Strings and numbers" style="color: grey">Strings and numbers</a></br>
+        <a class= "content" href="#comparing values" style="color: grey">Comparing values</a></br>
+        <a class= "content" href="#taking input" style="color: grey">Taking input</a></br>
+        <a class= "content" href="#if-(else-)statement" style="color: grey">if-(else-)statement</a></br>
+        <a class= "content" href="#Nested-if" style="color: grey">Nested-if</a></br>
+        <a class= "content" href="#Logical operators" style="color: grey">Logical operators</a></br>
+        <a class= "content" href="#while-loop" style="color: grey">while-loop</a></br>
+        <a class= "content" href="#for-loop" style="color: grey">for-loop</a></br>
+        <a class= "content" href="#lists" style="color: grey">Lists</a></br>
+        <a class= "content" href="#functions" style="color: grey">Functions</a></br>
+        <a class= "content" href="#lambda_functions" style="color: grey">Lambda Functions</a></br>
+        <a class= "content" href="#modules" style="color: grey">Modules</a></br>
+        <a class= "content" href="#numpy" style="color: grey">Numpy</a></br>
+    </div>
+    </div>
+
+    <div class="container">
+    <h2 class="heading">print-statement</h2>
+    <p id="print-statement"></p>
+    <h3 class="heading">code</h3>
+    <div class="code">
+        print("hello world")<br>
+        print(5)<br>
+        print('5')<br>
+        print()<br>
+        print(3, 1, 4)<br>
+        print("1", end=" ")<br>
+        print("2", end="")<br>
+        print("3")<br>
+    </div>
+    <h3 class="heading">output</h3>
+    <div class="output">
+        hello world<br>
+        5<br>
+        5<br>
+        <br>
+        3 1 4<br>
+        1 23<br>
+    </div>
+        
+    <div class="card" data-py="one" >
+
+        <p>
+            The print-statement accepts any number arguments inside the parentheses seperated by
+            commas.<span class="dots">....</span><span class="more" style="display: none;">4 The arguments get printed to the console seperated by spaces and then at the end by default an line break is placed. <br>
+            To change the default value at the end, you introduce one argument with end="".
+            The print-statement can print numbers and Strings(multiple characters inside quotationmarks).
+            Forgeting the quotationmarks in the print-statment often leds to errors, unless there is a
+            variable with that name, then the current value of the variable is printed.</span>
+        </p>
+        <button onclick="read('one')" class="myBtn">Read More</button>
+    </div>
+    </div>
+
+
+    <div class="container">
+    <h2 class="heading">variables - integers and floats</h2>
+    <p id="variables - integers and floats"></p>
+    <h3 class="heading">code</h3>
+    <div class="code">
+        num = 0<br>
+        print(num)<br>
+        num = num + 1<br>
+        print(num)<br>
+        num += 3<br>
+        print(num)<br>
+        num = 2 * num<br>
+        print(num)<br>
+        num //= 2<br>
+        print(num)<br>
+        num /= 2<br>
+        print(num)<br>
+        num -= 0.5<br>
+        print(num)<br>
+        num %= 1<br>
+        print(num)<br>
+    </div>
+    <h3 class="heading">output</h3>
+    <div class="output">
+        0<br>
+        1<br>
+        4<br>
+        8<br>
+        4<br>
+        2.0<br>
+        1.5<br>
+        0.5<br>
+    </div>
+        <div class="card" data-py="two">
+
+            <p >
+                Variables can be defined by writing the name you what to give them followed by an equal-sign
+                followed by their value.<br>
+                <span class="dots">....</span><span class="more"style="display: none;">Assining new values works exactly the same. When you want to add(+), subtract(-), multiply(*),
+                    divide(/), whole-divide(//) or do modulo(%) on your variable, you can either write that your variable is equal
+                    to an expression, which will be evaluated and then assigned to the variable or you can write
+                    it shorter by writing the variable name followed by the operator followed by an expression.<br>
+                    The modulo-operator returns the remainder of an division.
+                    The 'normal' divison results in an floating point value, whereas whole-division results in
+                    integer values (if the numbers were integer).</span>
+                </p>
+                <button onclick="read('two')" class="myBtn">Read More</button>
+    </div>
+    </div>
+
+    <div class="container">
+    <h2 class="heading">Strings and numbers</h2>
+    <p id="Strings and numbers"></p>
+    <h3 class="heading">code</h3>
+    <div class="code">
+        print(123 + 321)<br>
+        print("123" + "321")<br>
+        print(12 * 3)<br>
+        print("12" * 3)<br>
+        print(int("12") + 3)<br>
+        print("number: " + str(5))<br>
+    </div>
+    <h3 class="heading">output</h3>
+    <div class="output">
+        444<br>
+        123321<br>
+        36<br>
+        121212<br>
+        15<br>
+        number: 5<br>
+    </div>
+    <div  class="card" data-py="three">
+
+        <p>
+            Strings are a chain of characters(Symbols). A String can be created with single or
+            double quotes.<br><span class="dots">....</span><span class="more"style="display: none;">
+                The mathmatical operators work diffrently on Strings. Adding Strings results in a longer
+                String. Multiplying a String by a number makes the String repeat that many times.
+                Adding a String with a number results in an error.
+                To change a number to a String you can use str(). To do the reverse you can use int().</span>
+            </p>
+            <button onclick="read('three')" class="myBtn">Read More</button>
+            
+        </div>
+    </div>
+    <a class="next" href=http://127.0.0.1:5500/index2.html target="_blank">Next &#8250;</a>
+
+    
+    
+
+    
+
+    <script src="pf.js"></script>
+    </body>
+
+    </html>
