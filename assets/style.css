@@ -6,6 +6,7 @@
     padding: 0;
 }
 
+
 .container {
     max-width: 95vw;
     font-family: 'Ubuntu', sans-serif;
@@ -31,6 +32,28 @@
     transition: 0.3s all;
     font-size: 28px;
 }
+
+#animatext{
+    padding-left: 6em;
+    margin-bottom: 1.3em;
+    text-align: center;
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 6s steps(18) infinite alternate;
+    border-right: 3px solid black;
+    font-size: 60px;
+}
+
+@keyframes text{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 18ch;
+    }
+}
+
 .hover-line{
     color: #ffff;
     margin: 8px;
